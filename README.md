@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to the official and very crappy NCX Programming website
 
-You can use the [editor on GitHub](https://github.com/NCX-Programming/ncxprogramming.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+_We_ can use the [editor on GitHub](https://github.com/NCX-Programming/ncxprogramming.github.io/edit/main/README.md) to maintain and preview the content for _our_ website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
