@@ -1,6 +1,6 @@
 ## Welcome to the official and very crappy NCX Programming website
 
-[Link](https://github.com/NCX-Programming/ncxprogramming.github.io/projects/ncxcore.html)
+[Link](https://ncxprogramming.github.io/ncxprogramming.github.io/projects/ncxcore.html)
 
 _We_ can use the [editor on GitHub](https://github.com/NCX-Programming/ncxprogramming.github.io/edit/main/README.md) to maintain and preview the content for _our_ website in Markdown files.
 
