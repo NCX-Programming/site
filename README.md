@@ -1,3 +1,2 @@
-## Welcome to the official and very crappy NCX Programming website
-
-[Link](https://ncx-programming.github.io/ncxprogramming.github.io/projects/ncxcore.html)
+# Welcome to our website where we have stuff
+Just go visit it [here](https://ncx-programming.github.io/site]https://ncx-programming.github.io/site).
