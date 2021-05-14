@@ -29,7 +29,14 @@
       .navalt {
         float: right;
       }
-      .nav li a {
+      .navstd a  {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .navalt a  {
         display: block;
         color: white;
         text-align: center;
@@ -39,9 +46,11 @@
       .nav li a:hover {
         background-color: #111;
       }
-      img {
+      .navimg {
+        text-align: center;
         float: right;
-        padding: 6px;
+        padding: 6px 14px;
+        object-fit: scale-down;
       }
       .img-container {
         text-align: center;
@@ -56,7 +65,7 @@
           <li class="navstd"><a href="/">Home</a></li>
           <li class="navstd"><a href="/programs/">Programs</a></li>
           <li class="navstd"><a href="/members/">Members</a></li>
-          <li class="navalt"><img href="/image/github32px.png" width="32" height="32"/></li>
+          <li class="navimg"><a href="https://github.com/NCX-Programming"><img src="/home/ninjacheetah/Documents/Web/site/image/github64px.png" width="32" height="32"/></a></li>
           <li class="navalt"><a href="/blog/archive">Our Blog</a></li>
         </ul>
       </nav>
