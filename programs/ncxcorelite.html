@@ -26,44 +26,58 @@
         </ul>
       </nav>
     </div>
-    <h1>NCX-Core-Lite</h1>
-    <image src=https://ninjacheetah.github.io/NewNCXCoreLogo.png>
-    <p>View the <a href=https://github.com/NCX-Programming/NCX-Core>source code</a>.</p>
-    <h3>What is this?</h3>
-    <p>NCX-Core-Lite is a CLI application that allows you to quickly download software by <a href="https://github.com/ninjacheetah">NinjaCheetah</a> and other small develpers.<br>Here is a (WIP) list of the apps currently included:
+    <image src="https://ninjacheetah.github.io/NewNCXCoreLogo.png" class="projectimg">
+    <h1 style="text-align:center;">NCX-Core-Lite</h1>
+    <p style="text-align:center;"><b>By NinjaCheetah</b></p>
+    <p style="text-align:center;"><b>Platform(s): </b>macOS, Linux</p>
+    <p style="text-align:center;"><a href="https://github.com/NCX-Programming/NCX-Core-Lite/actions">Actions Builds</a> | <a href="https://github.com/NCX-Programming/NCX-Core-Lite/releases">View Binaries</a> | <a href="https://github.com/NCX-Programming/NCX-Core-Lite">View Source</a></p>
+    <h3 style="text-align:center;">What is it?</h3>
+    <p style="text-align:center;">NCX-Core-Lite is a CLI application that allows you to quickly download software by <a href="https://github.com/NinjaCheetah">NinjaCheetah</a> and other small develpers.</p>
+    <p style="text-align:center;">Here is a list of the apps currently available (non-exhaustive):</p>
     <div class="prg-list">
-    <nav>
-    <ul>
-      <li><a href="https://github.com/NCX-Programming/theVaultC" target="_blank">theVaultC</a></li>
-      <li><a href="https://github.com/YourKalamity/lazy-dsi-file-downloader" target="_blank">Lazy DSi File Downloader</a></li>
-      <li><a href="https://github.com/IanSkinner1982/C64-title-loader" target="_blank">C64 Title Loader</a></li>
-    </ul>
-    </nav>
+      <ul style="text-align:center;list-style-type:none;">
+        <li>- <a href="https://github.com/NCX-Programming/theVaultC" target="_blank">theVaultC</a></li>
+        <li>- <a href="https://github.com/YourKalamity/lazy-dsi-file-downloader" target="_blank">Lazy DSi File Downloader</a></li>
+        <li>- <a href="https://github.com/IanSkinner1982/C64-title-loader" target="_blank">C64 Title Loader</a></li>
+      </ul>
     </div>
-    </p>
-    <h3>How do I install it?</h3>
-    <p>Download the zip from the <a href="https://github.com/NCX-Programming/NCX-Core-Lite/actions"> latest successful actions run</a>, extract it, and run. That's it!</p>
-    <p>Available file formats are:</p>
-    <ul>
-      <li>A Linux ELF binary (Linux)</li>
-      <li>A Unix ELF binary (macOS)</li>
-      <li>A (experimental) .app binary (macOS)</li>
+    <h3 style="text-align:center;">Requirements</h3>
+    <p style="text-align:center;">Full dependency install instructions available <a href="https://github.com/NCX-Programming/NCX-Core-Lite/wiki">on the wiki</a>.</p>
+    <h4 style="text-align:center;">macOS</h4>
+    <ul style="text-align:center;list-style-type:none;">
+      <li>- At least macOS 10.12 (Intel, build available pre-compiled)</li>
+      <li>- At least macOS 11.0 (ARM, build not available pre-compiled)</li>
+      <li>- libcurl (install with <code>brew install curl</code>)</li>
+      <li>- GTK+ 3 (install with <code>brew install gtk+3</code>)</li>
     </ul>
-    <h3>Requirements</h3>
-    <p>Full dependency install instructions available <a href="https://github.com/NCX-Programming/NCX-Core-Lite/wiki">on the wiki</a>.</p>
-    <h4>macOS</h4>
-    <ul>
-      <li>At least macOS 10.12 (Intel, available pre-compiled)</li>
-      <li>At least macOS 11.0 (ARM, not available pre-compiled)</li>
-      <li>libcurl (install with <mark>brew install curl</mark>)</li>
-      <li>GTK+ 3 (install with <mark>brew install gtk+3</mark>)</li>
+    <h4 style="text-align:center;">Linux</h4>
+    <p style="text-align:center;">(Note that the same package names should work in pacman.)</p>
+    <ul style="text-align:center;list-style-type:none;">
+      <li>- A 64-bit version of Linux</li>
+      <li>- libcurl (install with <code>sudo apt install libcurl4-nss-dev</code>)</li>
+      <li>- GTK+ 3 (install with <code>sudo apt install libgtk-3-0 libgtk-3-dev</code>)</li>
     </ul>
-    <h4>Linux</h4>
-    <p>Note that the same package names should work in pacman.</p>
-    <ul>
-      <li>A 64-bit version of Linux</li>
-      <li>libcurl (install with <mark>sudo apt install libcurl4-nss-dev</mark>)</li>
-      <li>GTK+ 3 (install with <mark>sudo apt install libgtk-3-0 libgtk-3-dev</mark>)</li>
+    <h3 style="text-align:center;">Installing</h3>
+    <p style="text-align:center;">Download the zip from the latest successful actions run, which can be accessed using the link at the top of the page, extract it, and run. That's it!</p>
+    <p style="text-align:center;">Available file formats are:</p>
+    <ul style="text-align:center;list-style-type:none;">
+      <li>- A Linux ELF binary (Linux)</li>
+      <li>- A Unix ELF binary (macOS)</li>
+      <li>- A (experimental) .app binary (macOS)</li>
+    </ul>
+    <h3 style="text-align:center;">Compiling</h3>
+    <p style="text-align:center;">Full compiling instructions available <a href="https://github.com/NCX-Programming/NCX-Core-Lite/wiki">on the wiki</a>.</p>
+    <h4 style="text-align:center;">macOS</h4>
+    <ul style="text-align:center;list-style-type:none;">
+      <li>- Make sure you have all the dependencies installed</li>
+      <li>- Clone/download the source code however you prefer to</li>
+      <li>- Enter the directory and run <code>make mac</code> (for a Unix binary) or <code>make macapp</code> (for a macOS .app binary)</li>
+    </ul>
+    <h4 style="text-align:center;">Linux</h4>
+    <ul style="text-align:center;list-style-type:none;">
+      <li>- Make sure you have all the dependencies installed</li>
+      <li>- Clone/download the source code however you prefer to</li>
+      <li>- Enter the directory and run <code>make linux</code> (makes a Linux binary)</li>
     </ul>
   </body>
   <hr>
