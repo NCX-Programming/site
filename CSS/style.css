@@ -1,7 +1,10 @@
 body {
-  font-family: Calibri, Segoe, Segoe UI, Arial, sans-serif;
+  font-family: Calibri, Segoe UI, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+}
+h1 {
+  font-weight: normal;
 }
 .banner {
   width: 100%;
