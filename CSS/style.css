@@ -18,7 +18,10 @@ h1 {
   background-color: #333;
   font-family: 'Montserrat', sans-serif;
 }
-.navstd, .navalt {
+.navstd {
+  float: left;
+}
+.navalt {
   float: right;
 }
 .navstd a, .navalt a  {
