@@ -6,11 +6,7 @@ body {
 h1 {
   font-weight: normal;
 }
-.banner {
-  width: 100%;
-  display: block;
-}
-.banner > .banner-image {
+.banner, .banner > .banner-image {
   width: 100%;
   display: block;
 }
@@ -22,20 +18,10 @@ h1 {
   background-color: #333;
   font-family: 'Montserrat', sans-serif;
 }
-.navstd {
-  float: left;
-}
-.navalt {
+.navstd, .navalt {
   float: right;
 }
-.navstd a  {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.navalt a  {
+.navstd a, .navalt a  {
   display: block;
   color: white;
   text-align: center;
@@ -62,25 +48,9 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
-h1 {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-h2 {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-h3 {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-h4 {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-p {
-  margin-left: 8px;
-  margin-right: 8px;
+h1, h2, h3, h4, p {
+    margin-left: 8px;
+    margin-right: 8px;
 }
 code {
   font-family: Consolas,"courier new";
