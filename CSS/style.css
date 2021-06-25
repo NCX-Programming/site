@@ -31,7 +31,7 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
 }
-.navstd a:hover, .navalt a:hover {
+.navstd a:hover, .navalt a:hover, .navimg:hover {
   background-color: #111;
 }
 .navimg {
