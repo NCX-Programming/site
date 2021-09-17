@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="icon" type="image/png" href="/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <meta property="og:title" content="Welcome">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="{{ page.title }} | {{ site.title }}">
+    <meta property="og:description" content="{{ page.title }} | {{ site.title }}">
+    <link rel="canonical" href="https://ncxprogramming.com">
+    <meta property="og:url" content="https://ncxprogramming.com">
+    <meta property="og:site_name" content="NCX Programming">
+    <meta property="og:image" content="https://ncxprogramming.com/icon.png">
+  </head>
+  <body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li class="navstd"><a href="/">Homee</a></li>
+                <li class="navstd"><a href="/programs/">Programs</a></li>
+                <li class="navstd"><a href="/members/">Members</a></li>
+                <li class="navimg"><a href="https://github.com/NCX-Programming" target="_blank"><img src="/files/site/images/github64px.png" style="width:32px;height:32px;"/></a></li>
+                <li class="navimg"><a href="https://discord.gg/TbPXuFr" target="_blank"><img src="/files/site/images/discord.png" style="width:30px;height:32px;"/></a></li>
+                <li class="navalt"><a href="/blog/archive">Our Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    {{ content }}
+  </body>
+  <hr>
+  <footer style="font-family:sans-serif;text-align:center;font-size:12px;margin-bottom:10px;">Copyright &copy; 2021 NCX Programming. View this page's source <a href="https://github.com/NCX-Programming/site" style="color:blue;">on GitHub</a></footer>
+</html>
