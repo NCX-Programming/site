@@ -1,10 +1,26 @@
----
-layout: default
----
-
-<h1>{{ page.title }}</h1>
-<h3>{{ page.date | date: "%Y-%m-%d" }}</h3>
-<h4>{{ page.author }}</h4>
-<p><a href=/blog/archive>&lt;- Back</a></p>
-<hr>
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.titleshort }} | {{ site.title }}</title>
+    <link rel="icon" type="image/png" href="/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <meta property="og:title" content="{{ page.titleshort }}">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="{{ page.title }} | {{ site.title }} Blog">
+    <meta property="og:description" content="{{ page.title }} | {{ site.title }} Blog">
+    <link rel="canonical" href="https://ncxprogramming.com">
+    <meta property="og:url" content="https://ncxprogramming.com">
+    <meta property="og:site_name" content="NCX Programming">
+    <meta property="og:image" content="https://ncxprogramming.com/icon.png">
+  </head>
+  <body>
+    {% include nav.html %}
+    <h1>{{ page.title }}</h1>
+    <h3>{{ page.date | date: "%Y-%m-%d" }}</h3>
+    <h4>{{ page.author }}</h4>
+    <p><a href=/blog/>&lt;- Back</a></p>
+    <hr>
+    {{ content }}
+  </body>
+  {% include footer.html %}
+</html>
