@@ -11,7 +11,11 @@
     <link rel="canonical" href="https://ncxprogramming.com">
     <meta property="og:url" content="https://ncxprogramming.com">
     <meta property="og:site_name" content="NCX Programming">
-    <meta property="og:image" content="https://ncxprogramming.com/icon.png">
+    {% if page.custicon == true %}
+      <meta property="og:image" content="{{ page.iconurl }}">
+    {% else %}
+      <meta property="og:image" content="https://ncxprogramming.com/icon.png">
+    {% endif %}
   </head>
   <body>
     {% include nav.html %}
