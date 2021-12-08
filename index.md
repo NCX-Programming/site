@@ -6,7 +6,7 @@ layout: default
 <div class="banner">
     <img class="banner-image" src="/files/site/images/banner.png" alt="an awesome banner. too bad it isn't loading for you :(">
 </div>
-<h1 data-aos="fade-up" style="text-align:center;">Welcome to NCX Programming</h1>
+<h1 style="text-align:center;">Welcome to NCX Programming</h1>
 <hr>
 <p data-aos="fade-up" style="text-align:center;"><b>News: </b>A new blog article about the future of NCX projects is out! <a href="/2021/08/14/moving-on">Read it here.</a></p>
 <hr>
