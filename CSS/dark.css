@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+a {
+  color: aqua;
+}
+h1, h2, h3, h4, p {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: white;
+}
+.nav ul {
+  background-color: #212121;
+}
+footer {
+  color: white;
+}
+.footer a {
+  color: aqua;
+}

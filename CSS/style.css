@@ -3,8 +3,19 @@ body {
   margin: 0;
   padding: 0;
 }
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.footer a {
+  color: blue;
+}
 h1, h2 {
   font-weight: normal;
+}
+a {
+  color: blue;
 }
 .banner, .banner > .banner-image {
   width: 100%;
