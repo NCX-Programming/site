@@ -18,3 +18,15 @@ footer {
 .footer a {
   color: aqua;
 }
+ol {
+  color: white;
+}
+.dropdown-content {
+  background-color: #212121;
+}
+.dropdown-content a {
+  color: white;
+}
+.dropdown-content a:hover {
+  background-color: #111;
+}

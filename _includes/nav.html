@@ -7,7 +7,15 @@
             <li class="navstd"><a href="/products/icons">Products</a></li>
             <li class="navimg"><a href="https://github.com/NCX-Programming" target="_blank"><img src="https://cdn.ncxprogramming.com/file/image/navbar/github64px.png" style="width:32px;height:32px;"/></a></li>
             <li class="navimg"><a href="https://discord.gg/TbPXuFr" target="_blank"><img src="https://cdn.ncxprogramming.com/file/image/navbar/discord.png" style="width:30px;height:32px;"/></a></li>
-            <li class="navalt"><a onclick="toggleTheme()" href="javascript:void(0);">Theme</a></li>
+            <li class="navalt">
+                <div class="dropdown">
+                <button class="dropbtn">Theme</button>
+                    <div class="dropdown-content">
+                      <a onclick="chooseTheme(&quot;&quot;)" href="javascript:void(0);">Light</a>
+                      <a onclick="chooseTheme(&quot;/CSS/dark.css&quot;)" href="javascript:void(0);">Dark</a>
+                    </div>
+                </div>
+            </li>
             <li class="navalt"><a href="/blog">Our Blog</a></li>
         </ul>
     </nav>

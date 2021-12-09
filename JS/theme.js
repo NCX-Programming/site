@@ -3,35 +3,15 @@ function swapStyleSheet(sheet) {
 }
 function getTheme(){
   var value = localStorage.getItem('darktheme');
-  return value == '1';
+  return value;
 }
 function setTheme(darktheme){
-  localStorage.setItem('darktheme', (darktheme ? '1' : '0'));
+  localStorage.setItem('darktheme', darktheme);
 }
-function menu(id){
-  if(!getTheme()) {
-      document.getElementById(id).style.display = "block";
-      setTheme(true);
-  } else {
-      document.getElementById(id).style.display = "none";
-      setTheme(false);
-  }
-}
-function toggleTheme(){
-  if(getTheme()){
-    swapStyleSheet("");
-    setTheme(false);
-  }
-  else {
-    swapStyleSheet("/CSS/dark.css");
-    setTheme(true);
-  }
+function chooseTheme(theme){
+  swapStyleSheet(theme);
+  setTheme(theme);
 }
 function showTheme(){
-  if(!getTheme()){
-    swapStyleSheet("");
-  }
-  else {
-    swapStyleSheet("/CSS/dark.css");
-  }
+  swapStyleSheet(getTheme());
 }
