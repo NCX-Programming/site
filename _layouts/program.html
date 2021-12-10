@@ -2,17 +2,11 @@
 layout: default
 ---
 
-<style>
-  h1, h2, h3, h4, p {
-    text-align:center;
-    margin-left:5%;
-    margin-right:5%;
-  }
-</style>
-
 <image src="{{ page.iconurl }}" class="projectimg">
-<h1>{{ page.title }}</h1>
-<p><b>By {{ page.author }}</b></p>
-<p><b>Platform(s): </b>{{ page.platform }}</p>
+<div class="centertext">
+  <h1>{{ page.title }}</h1>
+  <p><b>By {{ page.author }}</b></p>
+  <p><b>Platform(s): </b>{{ page.platform }}</p>
 
-{{ content }}
+  {{ content }}
+</div>
