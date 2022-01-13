@@ -8,7 +8,7 @@ layout: default
 </div>
 <h1 style="text-align:center;">Welcome to NCX Programming</h1>
 <hr>
-<p style="text-align:center;"><b>News: </b>I like SVGs and everyone needs to know. <a href="/2021/12/07/love-letter-to-svgs">Click here.</a></p>
+<p style="text-align:center;"><b>News: </b>RNGTool is now on iOS! <a href="/2022/01/07/bringing-rngtool-to-phones">Read about that process here.</a></p>
 <hr>
 <div>
 <h2 style="text-align:center;">Top Programs</h2>
