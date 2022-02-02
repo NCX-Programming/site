@@ -1,2 +1,6 @@
 name: NCX Programming
 title: NCX Programming
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
