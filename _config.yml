@@ -1,6 +1,9 @@
 name: NCX Programming
 title: NCX Programming
+url: https://ncxprogramming.com
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+feed:
+  posts_limit: 20
