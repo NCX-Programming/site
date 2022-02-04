@@ -8,7 +8,7 @@ layout: default
 </div>
 <h1 style="text-align:center;">Welcome to NCX Programming</h1>
 <hr>
-<p style="text-align:center;"><b>News: </b>We now have an Atom feed! Subscribe <a href="https://ncxprogramming.com/feed.xml">here </a> with your favorite Atom/RSS reader! (Reader extensions can pick up the link automatically.)</p>
+<p style="text-align:center;"><b>News: </b>We now have an Atom feed! Subscribe <a href="https://ncxprogramming.com/feed.xml">here</a> with your favorite Atom/RSS reader! (Reader extensions can pick up the link automatically.)</p>
 <hr>
 <div>
 <h2 style="text-align:center;">Top Programs</h2>
