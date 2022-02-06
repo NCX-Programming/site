@@ -1,3 +1,3 @@
 # Welcome to our website where we have stuff
-![banner](https://ncxprogramming.com/files/site/images/banner.png)
+![banner](https://cdn.ncxprogramming.com/file/image/banner/banner.svg)
 Just go visit it at https://ncxprogramming.com
