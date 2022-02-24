@@ -1,5 +1,5 @@
 body {
-  background-color: #282C35;
+  background-color: black;
 }
 a {
   color: aqua;
@@ -10,7 +10,7 @@ h1, h2, h3, h4, p, ul {
     color: white;
 }
 .nav ul {
-  background-color: #20242B;
+  background-color: #212121;
 }
 footer {
   color: white;

@@ -2,11 +2,11 @@ function swapStyleSheet(sheet) {
   document.getElementById("pagestyle").setAttribute("href", sheet);
 }
 function getTheme(){
-  var value = localStorage.getItem('darktheme');
+  var value = localStorage.getItem('theme');
   return value;
 }
-function setTheme(darktheme){
-  localStorage.setItem('darktheme', darktheme);
+function setTheme(theme){
+  localStorage.setItem('theme', theme);
 }
 function chooseTheme(theme){
   swapStyleSheet(theme);
