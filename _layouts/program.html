@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% if page.archived == true %}
+<image src="https://cdn.ncxprogramming.com/file/image/banner/archived.svg">
+{% endif %}
 <image src="{{ page.iconurl }}" class="projectimg" style="width:256px;height:256px;padding-top:8px;">
 <div class="centertext">
   <h1>{{ page.title }}</h1>
