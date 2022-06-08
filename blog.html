@@ -1,8 +1,17 @@
 ---
 title: Blog
-layout: blog
+layout: default
 ---
 
-<h1>Blog Archive</h1>
-<p>Articles are listed with the newest on top.</p>
-<hr>
+<div class="text-center pt-3">
+    <h1>Blog Archive</h1>
+    <p>Articles are listed with the newest on top.</p>
+</div>
+<div class="container">
+    <hr>
+    {% for post in site.posts %}
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p>{{ post.date | date: "%Y-%m-%d" }} ({{ post.author }})</p>
+        <hr>
+    {% endfor %}
+</div>

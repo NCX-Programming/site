@@ -14,17 +14,17 @@ function themeButtons() {
     }
 
     roseButton.onclick = function() {
-        chooseTheme("/CSS/rose.css");
+        chooseTheme("/css/rose.css");
         return false;
     }
 
     darkButton.onclick = function() {
-        chooseTheme("/CSS/dark.css");
+        chooseTheme("/css/dark.css");
         return false;
     }
 
     blackButton.onclick = function() {
-        chooseTheme("/CSS/black.css");
+        chooseTheme("/css/black.css");
         return false;
     }
 }
