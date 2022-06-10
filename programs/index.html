@@ -4,16 +4,53 @@ layout: default
 ---
 
 <img class="img-fluid" src="https://cdn.ncxprogramming.com/file/image/banner/banner3.png" alt="A banner that says 'Software'.">
-<div class="container pt-3">
-  <h1 class="text-center">All Maintained Programs</h1>
-  <p><a href="/programs/ahcounter">Ah Counter</a>, a Discord bot that counts words</p>
-  <p><a href="/programs/ncxcore">NCX-Core</a>, our program to install more programs</p>
-  <p><a href="/programs/rngtool">RNGTool</a>, our macOS app to generate random numbers</p>
-  <p><a href="/programs/thevaultbasic">theVaultBASIC2.0</a>, a collection of C64 apps</p>
-  <p><a href="/programs/thevaultc">theVaultC</a>, a collection of cross-platform C console apps</p>
-  <p><a href="/programs/xware">XWare</a>, our small programs that can be downloaded in NCX-Core</p>
-  <h1 class="text-center">Archived Programs</h1>
-  <p><a href="/programs/archived/csharpcollection">CSharpCollection</a>, a collection of C# things using WPF</p>
-  <p><a href="/programs/archived/ncxcorelite">NCX-Core-Lite</a>, our cross-platform CLI/GUI program to install more programs</p>
-  <p><a href="/programs/archived/thevault">theVault</a>, a collection of cross-platform C# console apps</p>
+<h1 class="text-center pt-3">Explore Our Software</h1>
+<p class="text-center text-muted pb-3">Use the tabs to switch between maintained and archived programs.</p>
+<nav>
+  <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Maintained</button>
+    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Archived</button>
+  </div>
+</nav>
+<div class="tab-content pb-3" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <h3 class="text-center pt-3">Maintained</h3>
+    <p class="text-center text-muted pb-1">Software that's still be worked on and updated.</p>
+    <div class="container">
+      <div class="row">
+        {% for item in site.data.projects-maintained %}
+        <div class="col-sm-3">
+          <div class="card">
+            <img src="{{ item.icon }}" class="card-img-top" alt="The app's icon.">
+            <div class="card-body">
+              <h5 class="card-title">{{ item.truename }}</h5>
+              <p class="card-text">{{ item.desc }}</p>
+              <a href="/programs/{{ item.name }}" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <h3 class="text-center pt-3 pb-1">Archived</h3>
+    <p class="text-center text-muted pb-1">Software that is no longer being worked on and does not recieve updates.</p>
+    <div class="container">
+      <div class="row">
+        {% for item in site.data.projects-archived %}
+        <div class="col-sm-3">
+          <div class="card">
+            <img src="{{ item.icon }}" class="card-img-top" alt="The app's icon.">
+            <div class="card-body">
+              <h5 class="card-title">{{ item.truename }}</h5>
+              <p class="card-text">{{ item.desc }}</p>
+              <a href="/programs/archived/{{ item.name }}" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
