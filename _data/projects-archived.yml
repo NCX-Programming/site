@@ -1,3 +1,11 @@
+- name: ncxcore
+  truename: NCX-Core
+  icon: https://cdn.ncxprogramming.com/file/icon/ncxcore.png
+  desc: Our program to install more programs.
+- name: xware
+  truename: XWare
+  icon: https://cdn.ncxprogramming.com/file/icon/xware.png
+  desc: Our small programs that can be downloaded in NCX-Core.
 - name: csharpcollection
   truename: CSharpCollection
   icon: https://cdn.ncxprogramming.com/file/icon/csharpcollection.png
@@ -10,3 +18,7 @@
   truename: theVault
   icon: https://cdn.ncxprogramming.com/file/icon/placeholder.svg
   desc: A collection of cross-platform C# console apps.
+- name: thevaultbasic
+  truename: theVaultBasic2.0
+  icon: https://cdn.ncxprogramming.com/file/icon/thevaultbasic.png
+  desc: A collection of C64 apps, similar to theVaultC.

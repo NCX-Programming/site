@@ -3,3 +3,5 @@
 .jekyll-metadata
 .idea
 _site
+vendor/
+.bundle

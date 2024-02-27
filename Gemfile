@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
 end
 
+gem "json"
 gem "webrick", ">= 1.8"
