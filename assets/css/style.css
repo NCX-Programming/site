@@ -1,1 +1,10 @@
 @import '/assets/bootstrap/css/bootstrap.min.css';
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0 0 100px;
+}
