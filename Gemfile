@@ -13,4 +13,7 @@ group :jekyll_plugins do
 end
 
 gem "json"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
 gem "webrick", ">= 1.8"
