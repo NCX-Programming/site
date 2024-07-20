@@ -2,13 +2,39 @@
 title: Home
 layout: default
 ---
+<style>
+    .mp-gradient {
+        background: linear-gradient(228deg, #8a51a8, #9f53b9, #6e5ec5, #5a4cc5);
+        background-size: 800% 800%;
+
+        -webkit-animation: main-page-gradient 14s ease infinite;
+        -moz-animation: main-page-gradient 14s ease infinite;
+        animation: main-page-gradient 14s ease infinite;
+    }
+
+    @-webkit-keyframes main-page-gradient {
+        0%{background-position:0% 87%}
+        50%{background-position:100% 14%}
+        100%{background-position:0% 87%}
+    }
+    @-moz-keyframes main-page-gradient {
+        0%{background-position:0% 87%}
+        50%{background-position:100% 14%}
+        100%{background-position:0% 87%}
+    }
+    @keyframes main-page-gradient {
+        0%{background-position:0% 87%}
+        50%{background-position:100% 14%}
+        100%{background-position:0% 87%}
+    }
+</style>
 
 <img class="img-fluid" src="https://cdn.ncxprogramming.com/file/image/banner/banner.svg" alt="an awesome banner. too bad it isn't loading for you :(">
 <div class="container-fluid text-center pt-3">
     <h1>Welcome to NCX Programming</h1>
     <hr>
     <div class="alert alert-primary" role="alert">
-        <span class="badge text-bg-primary">News</span> New content is in the works! New pages have finally been added, old ones have been archived, and more is to come!
+        <span class="badge text-bg-primary">News</span> The members page has had a face lift, and so has one of the About Me pages! Check it Out!
     </div>
     <hr>
     <h2>Top Programs</h2>
@@ -25,8 +51,9 @@ layout: default
             <div class="col-sm-6">
                 <h2>Personal Sites</h2>
                 <p>Want to see what we're up to outside of NCX Programming projects? Check out our personal sites!</p>
-                <p><b>Campbell:</b> <a href="https://ninjacheetah.github.io">ninjacheetah.github.io</a></p>
+                <p><b>Campbell:</b> <a href="https://ninjacheetah.dev">ninjacheetah.dev</a></p>
                 <p><b>Lillian:</b> <a href="https://randommeaninglesscharacters.com">randommeaninglesscharacters.com</a></p>
+                <p><b>Maple:</b> <a href="https://damidoop.xyz">damidoop.xyz</a></p>
             </div>
         </div>
     </div>

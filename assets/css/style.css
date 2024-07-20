@@ -1,4 +1,5 @@
 @import '/assets/bootstrap/css/bootstrap.min.css';
+@import '/assets/css/members.css';
 
 html {
     min-height: 100%;
