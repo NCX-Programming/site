@@ -1,5 +1,6 @@
 @import '/assets/bootstrap/css/bootstrap.min.css';
 @import '/assets/css/members.css';
+@import url("https://rsms.me/inter/inter.css");
 
 html {
     min-height: 100%;
@@ -8,4 +9,13 @@ html {
 
 body {
     margin: 0 0 100px;
+    font-family: Inter, sans-serif; !important;
+}
+
+:root {
+    font-family: Inter, sans-serif; !important;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
 }
