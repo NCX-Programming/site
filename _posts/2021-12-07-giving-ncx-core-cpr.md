@@ -1,7 +1,7 @@
 ---
 title: Giving NCX-Core Some CPR
 titleshort: Giving NCX-Core CPR
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 icon:
 ---

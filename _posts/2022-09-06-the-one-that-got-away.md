@@ -1,7 +1,7 @@
 ---
 title: The One That Got Away (Dolphin NAND Manager)
 titleshort: The One That Got Away
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 icon: https://cdn.ncxprogramming.com/file/blog/2022-09-06/dnm-main-menu-empty.png
 ---

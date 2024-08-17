@@ -1,7 +1,7 @@
 ---
 title: Welcome to the Blog
 titleshort: Hello Blog
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 ---
 

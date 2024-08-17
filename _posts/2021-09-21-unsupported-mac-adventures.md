@@ -1,7 +1,7 @@
 ---
 title: Unsupported Mac Adventures
 titleshort: Mac Adventures
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 ---
 

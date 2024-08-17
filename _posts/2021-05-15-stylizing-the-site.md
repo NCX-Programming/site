@@ -1,7 +1,7 @@
 ---
 title: Stylizing The Site
 titleshort: Stylizing The Site
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 ---
 

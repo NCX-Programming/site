@@ -1,7 +1,7 @@
 ---
 title: Love Letter to Vector Graphics
 titleshort: Love Letter to SVGs
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 icon:
 ---

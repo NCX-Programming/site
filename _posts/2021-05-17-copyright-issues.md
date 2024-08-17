@@ -1,7 +1,7 @@
 ---
 title: Copyright Issues
 titleshort: Copyright Issues
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 ---
 

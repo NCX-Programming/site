@@ -1,7 +1,7 @@
 ---
 title: Bringing RNGTool to Your Wrist (Maybe)
 titleshort: Bringing RNGTool to Apple Watches
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 icon: https://cdn.ncxprogramming.com/file/blog/2022-02-01/rngtool-wrist-dice-mode.png
 ---

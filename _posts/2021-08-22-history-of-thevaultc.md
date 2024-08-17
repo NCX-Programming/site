@@ -1,7 +1,7 @@
 ---
 title: The History of theVaultC
 titleshort: The History of theVaultC
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 ---
 

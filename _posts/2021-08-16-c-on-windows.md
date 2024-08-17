@@ -1,7 +1,7 @@
 ---
 title: The Problems With C On Windows
 titleshort: C On Windows
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 ---
 

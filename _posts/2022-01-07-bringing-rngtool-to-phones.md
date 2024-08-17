@@ -1,7 +1,7 @@
 ---
 title: Bringing RNGTool to Your Pocket (Kinda)
 titleshort: Bringing RNGTool to Phones
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 icon: https://cdn.ncxprogramming.com/file/blog/2022-01-07/rngtool-mobile-mode-list-beta.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 title: Unsupported Mac Adventures Part 2
 titleshort: Mac Adventures 2
-author: NinjaCheetah
+author: Campbell
 layout: blogpage
 ---
 
