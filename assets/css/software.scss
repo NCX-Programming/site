@@ -1,0 +1,76 @@
+@use '../bootstrap/css/bootstrap.css';
+$color-mode-type: data;
+
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+* {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: linear-gradient(140deg, #ff5555, #ffaa56, #ffe660, #76ff7b, #407fff, #b74dff);
+  background-size: 1400% 1400%;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  border-color: transparent;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.software-tab-bg {
+  background-color: var(--bs-body-bg)
+}
+
+.banner-ds.main {
+  font-size: 6vmax;
+  margin: 5%;
+  font-weight: 700;
+}
+
+.banner-ds.sub {
+  font-size: 2vmax;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+}
+
+[data-bs-theme=dark] .banner-ds.main {
+  text-shadow: 0 0 2rem rgb(40, 40, 40);
+  font-size: 6vmax;
+  margin: 5%;
+  font-weight: 700;
+}
+[data-bs-theme=dark] .banner-ds.sub {
+  text-shadow: 0 0 1rem rgb(20, 20, 20);
+  font-size: 2vmax;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+}
+
+

@@ -1,3 +1,4 @@
-# Welcome to our website where we have stuff
+# Welcome to the NCX Programming website repository!
 ![banner](https://cdn.ncxprogramming.com/file/image/banner/banner.svg)
-Just go visit it at https://ncxprogramming.com
+Our site is made using Bootstrap & Jekyll.<br>
+You can visit the site at https://ncxprogramming.com.

@@ -4,14 +4,9 @@
   desc: A macOS/iOS/watchOS app that generates random numbers.
 - name: rngtool-android
   truename: RNGTool Android
-  icon: https://cdn.ncxprogramming.com/file/icon/rngtool-android.png
+  icon: https://github.com/NCX-Programming/RNGTool-Android/blob/main/app/src/main/appicon-playstore.png?raw=true
   desc: An Android app that generates random numbers.
 - name: rngtool-plus
   truename: RNGTool Plus
   icon: https://cdn.ncxprogramming.com/file/icon/rngtoolraw.png
   desc: A cross-platform desktop app that generates random numbers.
-- name: thevaultc
-  truename: theVaultC
-  icon: https://cdn.ncxprogramming.com/file/icon/thevaultc.png
-  desc: A collection of cross-platform C console apps.
-

@@ -1,0 +1,40 @@
+@use '../bootstrap/css/bootstrap.css';
+$color-mode-type: data;
+
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+body {
+  background-image: radial-gradient(ellipse at bottom, #8a51a8aa 0%, #9f53b9aa 25%, #6e5ec5aa 50%, #5a4cc5aa 75%);
+  background-size: 800% 800%;
+
+  -webkit-animation: main-page-gradient 14s ease infinite;
+  -moz-animation: main-page-gradient 14s ease infinite;
+  animation: main-page-gradient 14s ease infinite;
+}
+
+@-webkit-keyframes main-page-gradient {
+  0%{background-position:0% 87%}
+  50%{background-position:100% 14%}
+  100%{background-position:0% 87%}
+}
+@-moz-keyframes main-page-gradient {
+  0%{background-position:0% 87%}
+  50%{background-position:100% 14%}
+  100%{background-position:0% 87%}
+}
+@keyframes main-page-gradient {
+  0%{background-position:0% 87%}
+  50%{background-position:100% 14%}
+  100%{background-position:0% 87%}
+}
+
+.main-body {
+  background-color: rgba(var(--bs-body-bg-rgb), 1)
+}
